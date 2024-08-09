@@ -9,15 +9,11 @@ html, body {
     height: 100vh; /* Full viewport height */
     width: 100vw;  /* Full viewport width */
     overflow: auto; /* Enable scrolling if the content exceeds the viewport */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .full-view-scrollable img {
-    object-fit: contain;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    display: block;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover; /* Cover the entire container without leaving white space */
 }

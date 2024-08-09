@@ -9,10 +9,13 @@ html, body {
     height: 100vh; /* Full viewport height */
     width: 100vw;  /* Full viewport width */
     overflow: auto; /* Enable scrolling if the content exceeds the viewport */
+    justify-content: center;
+    align-items: center;
 }
 
 .full-view-scrollable img {
-    display: block;
+    width: auto;
+    height: auto;
     min-height: 100%;
     min-width: 100%;
     object-fit: cover; /* Cover the entire container without leaving white space */
